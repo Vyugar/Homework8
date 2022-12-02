@@ -59,7 +59,7 @@ int[,] CreateNewArray(int[,] array)
 }
 
 int[,] array = Create2DArray(3, 4);
-Console.WriteLine("Изначальный:");
+Console.WriteLine("Изначальный массив:");
 Print2dArray(array);
 Console.WriteLine();
 int[,] arraySort = CreateNewArray(array);
