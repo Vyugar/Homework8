@@ -10,7 +10,7 @@
 26(1,0,1) 55(1,1,1)
 */
 
-int Row = 2, Col = 2, array = 2;
+int row = 2, col = 2, array = 2;
 int FirstNumber = 10, SecondNumber = 100;
 int[] numbers = new int[SecondNumber - FirstNumber];
 for (int i = 0; i < numbers.Length; i++)
