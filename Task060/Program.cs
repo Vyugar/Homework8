@@ -24,11 +24,11 @@ for (int i = 0; i < numbers.Length - 1; i++)
     numbers[i] = numbers[index];
     numbers[index] = temp;
 }
-int[,,] TripleMatrix = new int[Row, Col, array];
+int[,,] TripleMatrix = new int[row, col, array];
 int count = 0;
-for (int i = 0; i < Row; i++)
+for (int i = 0; i < row; i++)
 {
-    for (int j = 0; j < Col; j++)
+    for (int j = 0; j < col; j++)
     {
         for (int z = 0; z < array; z++)
         {
